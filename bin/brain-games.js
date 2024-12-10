@@ -1,9 +1,7 @@
 #!/usr/bin/env node
-/* eslint-disable eol-last */
+/* eslint-disable import/extensions */
 /* eslint-disable no-console */
-/* eslint-disable import/no-unresolved */
-// eslint-disable-next-line import/extensions
-import askAboutName from '../games/cli.js';
+import welcomeUser from '../games/cli.js';
 
 console.log('Welcome to the Brain Games!');
-askAboutName();
+welcomeUser();

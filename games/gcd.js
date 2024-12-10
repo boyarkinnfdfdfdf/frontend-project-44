@@ -1,7 +1,6 @@
-/* eslint-disable eol-last */
+/* eslint-disable import/no-useless-path-segments */
 /* eslint-disable import/extensions */
-/* eslint-disable no-unused-vars */
-import getRandomInt from '../src/generateRandomNumb.js';
+import getRandomInt from '../games/generateRandomNumb.js';
 import startGame from '../src/index.js';
 
 const rules = 'Find the greatest common divisor of given numbers.';

@@ -1,11 +1,4 @@
 /* eslint-disable no-console */
-/* eslint-disable object-curly-newline */
-/* eslint-disable indent */
-/* eslint-disable no-trailing-spaces */
-/* eslint-disable import/extensions */
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-multiple-empty-lines */
-
 
 import readlineSync from 'readline-sync';
 

@@ -1,11 +1,8 @@
-/* eslint-disable import/no-unresolved */
 /* eslint-disable import/extensions */
-/* eslint-disable eol-last */
-/* eslint-disable no-trailing-spaces */
-/* eslint-disable import/newline-after-import */
-/* eslint-disable indent */
+/* eslint-disable import/no-useless-path-segments */
+
 /* eslint-disable no-console */
-import getRandomInt from '../src/generateRandomNumb.js';
+import getRandomInt from '../games/generateRandomNumb.js';
 import startGame from '../src/index.js';
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';

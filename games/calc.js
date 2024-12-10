@@ -1,9 +1,8 @@
-/* eslint-disable import/no-unresolved */
+/* eslint-disable import/no-useless-path-segments */
 /* eslint-disable import/extensions */
-/* eslint-disable no-multiple-empty-lines */
 /* eslint-disable no-console */
-/* eslint-disable no-trailing-spaces */
-import getRandomInt from '../src/generateRandomNumb.js';
+
+import getRandomInt from '../games/generateRandomNumb.js';
 import startGame from '../src/index.js';
 
 const rules = 'What is the result of the expression?';
@@ -34,6 +33,3 @@ const generateRound = () => {
 };
 
 export default () => startGame(generateRound, rules);
-
-
-
