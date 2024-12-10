@@ -1,10 +1,15 @@
 
- # Brain-Games
- **Simple console Games with basic arithmetics**  
- ## Get started
-    Clone the repository -> use `make install` command.
-    Thereafter use 'npm link'.
-    Success, games ready to play!
+ ## Setup
+
+```bash
+make install
+```
+
+## Run tests
+
+```bash
+make test
+```
  
  **Parity**
     Answer "yes" if the number is even, otherwise answer "no".
