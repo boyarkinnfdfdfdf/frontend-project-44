@@ -1,15 +1,33 @@
- # Демонстрация игры brain-even
+
+ # Brain-Games
+ **Simple console Games with basic arithmetics**  
+ ## Get started
+    Clone the repository -> use `make install` command.
+    Thereafter use 'npm link'.
+    Success, games ready to play!
+ 
+ **Parity**
+    Answer "yes" if the number is even, otherwise answer "no".
+    Use 'brain-even' command to start.
  [![asciicast](https://asciinema.org/a/ZpEsKqch2O05sofiATxU4vcfS.svg)](https://asciinema.org/a/ZpEsKqch2O05sofiATxU4vcfS)
 
- # Демонстрация игры brain-calc
+ **Calculator**
+    Calculate the result of the expression.
+    Use 'brain-calc' command to start.
   [![asciicast](https://asciinema.org/a/spmVtxiaM3OwOMKmHgiBNkEnt.svg)](https://asciinema.org/a/spmVtxiaM3OwOMKmHgiBNkEnt)
 
- # Демонстрация игры brain-gcd
+ **Greatest Common Divisor**
+    Find the greatest common divisor of given numbers.
+    Use 'brain-gcd' command to start.
  [![asciicast](https://asciinema.org/a/JDu4vze1ofHEKHv1G9qrTe4rg.svg)](https://asciinema.org/a/JDu4vze1ofHEKHv1G9qrTe4rg)
 
- # Демонстрация игры brain-progression
+ **Progression**
+    Fined a missing number in the progression.
+    Use 'brain-progression' command to start.
  [![asciicast](https://asciinema.org/a/ybTbjYRV9dJZEDovZJrJ0r7Vh.svg)](https://asciinema.org/a/ybTbjYRV9dJZEDovZJrJ0r7Vh)
 
- # Демонстрация игры brain-prime
+ **Is Prime**
+    Answer 'yes' if given number is prome, otherwise answer 'no'.
+    Use 'brain-prime' command to start. 
  [![asciicast](https://asciinema.org/a/O2SVNdijqtpZY1t0Y2k3Gucp5.svg)](https://asciinema.org/a/O2SVNdijqtpZY1t0Y2k3Gucp5)
   
