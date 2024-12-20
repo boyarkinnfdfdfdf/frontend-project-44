@@ -2,10 +2,10 @@
 /* eslint-disable import/extensions */
 /* eslint-disable no-console */
 
-import getRandomInt from '../games/generateRandomNumb.js';
+import getRandomInt from '../utils/generateRandomNumb.js';
 import startGame from '../src/index.js';
 
-const rules = 'What is the result of the expression?';
+const theTaskLine = 'What is the result of the expression?';
 const min = 1;
 const max = 100;
 const operationSigns = ['+', '-', '*'];
@@ -32,4 +32,4 @@ const generateRound = () => {
   return [question, String(correctAnswer)];
 };
 
-export default () => startGame(generateRound, rules);
+export default () => startGame(generateRound, theTaskLine);

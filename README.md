@@ -2,11 +2,6 @@
 
    # Badge CodeClimate
      [![Maintainability](https://api.codeclimate.com/v1/badges/f976a1a48b7adf86cfd9/maintainability)](https://codeclimate.com/github/boyarkinnfdfdfdf/frontend-project-44/maintainability)
-     
-
-
-
-
 
  ## Setup
 

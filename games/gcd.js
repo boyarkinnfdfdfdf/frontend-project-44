@@ -1,9 +1,9 @@
 /* eslint-disable import/no-useless-path-segments */
 /* eslint-disable import/extensions */
-import getRandomInt from '../games/generateRandomNumb.js';
+import getRandomInt from '../utils/generateRandomNumb.js';
 import startGame from '../src/index.js';
 
-const rules = 'Find the greatest common divisor of given numbers.';
+const theTaskLine = 'Find the greatest common divisor of given numbers.';
 const min = 0;
 const max = 100;
 
@@ -23,4 +23,4 @@ const generateRound = () => {
   return [question, String(correctAnswer)];
 };
 
-export default () => startGame(generateRound, rules);
+export default () => startGame(generateRound, theTaskLine);

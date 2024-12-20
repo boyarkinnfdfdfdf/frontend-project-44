@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 /* eslint-disable import/extensions */
-import generateRound from '../games/progression.js';
+import runEvenGame from '../games/progression.js';
 
-generateRound();
+runEvenGame();
